@@ -65,7 +65,7 @@ public class MyNetworkManager : MonoBehaviour
     void SpawnPlane(NetworkMessage msg)
     {
         Debug.Log("LocalClientPrefabsCount " + ClientScene.prefabs.Count);
-        var planeGo = Instantiate(planePrefab);
-        NetworkServer.SpawnWithClientAuthority(planeGo, msg.conn);
+        //var planeGo = Instantiate(planePrefab);
+        //NetworkServer.SpawnWithClientAuthority(planeGo, msg.conn);
     }
 }
